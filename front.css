@@ -1,0 +1,60 @@
+.librarian {
+    font-size: 7em;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nounderline {
+    text-decoration: none;
+    color: grey;
+}
+
+.ian {
+    color: red;
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 15px 5px 15px; 
+    background-color: white;
+    color: grey;
+    font-family: Arial, sans-serif; /* the font-family for the menu and headers is open sans - how to import and embed? */
+    font-size: 2em;
+    width: 200px;
+    margin: 0 auto 0 auto;
+}
+nav {
+    margin: -30px auto 0 auto;
+    text-align: center;
+}
+
+li a:hover {
+    color: red;
+}
+
+h2 {
+    color: grey;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.mephoto {
+    grid-column: 1;
+}
+
+.content {
+    grid-column: 2;
+}
+
